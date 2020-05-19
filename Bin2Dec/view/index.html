@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bin2Dec</title>
+    <link rel="stylesheet" href="../style/styles.css">
+</head>
+
+<body>
+    <div class="conteudo">
+        <h1>Bin2Dec</h1>
+        <p>Binário: <input id="bin-input" type="text"></p>
+        <p>Decimal:  <input id="dec-input" type="text"></p>
+        <button id="btn-convert" onclick="convert.convertBin2Dec()">Converter</button>
+    </div>
+
+    <script src="../service/ConvertBin2Dec.js"></script>
+    <script>
+        let convert = new ConvertBin2Dec();
+    </script>
+</body>
+
+</html>

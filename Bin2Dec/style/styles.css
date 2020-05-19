@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+}
+
+.conteudo {
+    background-color: #6d9fa8;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    max-height: 350px;
+    border-radius: 3px;
+}
+
+h1{
+    font-size: 2em;
+}
+    
+p {
+    font-size: 1.2em;
+}
